@@ -15,6 +15,7 @@ function carcurator(a, b, operator) {
                 if (numb1 === 0 || numb2 === 0) {
                     return "impossible to divide this number by 0"
                 }
+                
                 return numb1 / numb2;
                 defaut :
                 return "error input operators";
